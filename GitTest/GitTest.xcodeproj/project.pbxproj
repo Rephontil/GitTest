@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2573788F1EEED74A00598119 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2573788E1EEED74A00598119 /* Person.m */; };
 		25A9E5C91EEED41B00311280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E5C81EEED41B00311280 /* main.m */; };
 		25A9E5CC1EEED41B00311280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E5CB1EEED41B00311280 /* AppDelegate.m */; };
 		25A9E5CF1EEED41B00311280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9E5CE1EEED41B00311280 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2573788D1EEED74A00598119 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2573788E1EEED74A00598119 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		25A9E5C41EEED41B00311280 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A9E5C81EEED41B00311280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25A9E5CA1EEED41B00311280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				25A9E5CB1EEED41B00311280 /* AppDelegate.m */,
 				25A9E5CD1EEED41B00311280 /* ViewController.h */,
 				25A9E5CE1EEED41B00311280 /* ViewController.m */,
+				2573788D1EEED74A00598119 /* Person.h */,
+				2573788E1EEED74A00598119 /* Person.m */,
 				25A9E5D01EEED41B00311280 /* Main.storyboard */,
 				25A9E5D31EEED41B00311280 /* Assets.xcassets */,
 				25A9E5D51EEED41B00311280 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				25A9E5CF1EEED41B00311280 /* ViewController.m in Sources */,
 				25A9E5CC1EEED41B00311280 /* AppDelegate.m in Sources */,
+				2573788F1EEED74A00598119 /* Person.m in Sources */,
 				25A9E5C91EEED41B00311280 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +524,7 @@
 				25A9E5F31EEED41B00311280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25A9E5F41EEED41B00311280 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				25A9E5F61EEED41B00311280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25A9E5F71EEED41B00311280 /* Build configuration list for PBXNativeTarget "GitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				25A9E5F91EEED41B00311280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
